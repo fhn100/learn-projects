@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<learn-zookeeperuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+	<Appenders>
+		<Console name="myConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%d{MM-dd HH:mm:ss,SSS} %-5p] [%t] %c{2\} - %m%n%ex" />
+		</Console>
+		<RollingFile name="fileAppender" fileName="../log/learn-zookeeper/learn-zookeeper.log" filePattern="../log/learn-zookeeper/learn-zookeeper.%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<Pattern>[%d{MM-dd HH:mm:ss SSS} %-5level] [%t] %c{3} - %m%n%ex </Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="myConsole" />
+			<AppenderRef ref="fileAppender" />
+		</Root>
+	</Loggers>
+</learn-zookeeperuration>
