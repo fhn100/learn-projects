@@ -11,7 +11,8 @@ public class ProductQueue<T> {
     private Condition notEmpty = lock.newCondition();
     private int head, index, count;
 
-    public ProductQueue(int maxSize) {
+	@SuppressWarnings("unchecked")
+	public ProductQueue(int maxSize) {
         items = (T[]) new Object[maxSize];
     }
 
