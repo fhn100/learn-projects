@@ -1,4 +1,4 @@
-package org.learn.java.java8.other;
+package org.learn.java.java8.concurrent;
 
 import java.util.concurrent.ForkJoinPool;
 

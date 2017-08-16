@@ -1,10 +1,12 @@
-package org.learn.java.java8.other;
+package org.learn.java.java8.concurrent;
 
 import java.util.concurrent.RecursiveAction;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AccumulatorRecursiveAction extends RecursiveAction {
-    private final int start;
+	private static final long serialVersionUID = 3282482736272767430L;
+
+	private final int start;
 
     private final int end;
 
