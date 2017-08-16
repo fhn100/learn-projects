@@ -5,11 +5,6 @@ import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/11/13 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class CompletableFutureInAction1 {
 
     private final static Random RANDOM = new Random(System.currentTimeMillis());

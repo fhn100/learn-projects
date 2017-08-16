@@ -9,11 +9,6 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.stream.Collectors;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/10/28 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class CollectorsAction2 {
 
     public static void main(String[] args) {

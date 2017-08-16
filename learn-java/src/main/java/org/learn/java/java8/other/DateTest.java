@@ -1,19 +1,15 @@
 package org.learn.java.java8.other;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.*;
+import java.time.Duration;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
-import java.time.temporal.TemporalUnit;
-import java.util.Calendar;
-import java.util.Date;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/11/13 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class DateTest {
     public static void main(String[] args) throws ParseException, InterruptedException {
 /*        Date date = new Date(116, 2, 18);

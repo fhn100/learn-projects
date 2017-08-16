@@ -1,8 +1,5 @@
 package org.learn.java.java8.other;
 
-/**
- * Created by wangwenjun on 2016/10/22.
- */
 public class Trader{
 
     private final String name;
@@ -18,7 +15,8 @@ public class Trader{
     public String getCity(){
         return this.city;
     }
-    public String toString(){
+    @Override
+	public String toString(){
         return "Trader:"+this.name + " in " + this.city;
     }
 }

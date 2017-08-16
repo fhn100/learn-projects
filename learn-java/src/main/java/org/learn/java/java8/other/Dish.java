@@ -1,8 +1,5 @@
 package org.learn.java.java8.other;
 
-/**
- * Created by wangwenjun on 2016/10/18.
- */
 public class Dish {
 
     private final String name;

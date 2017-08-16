@@ -1,20 +1,13 @@
 package org.learn.java.java8.other;
 
+import static java.util.stream.Collectors.toList;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.toList;
-
-/***************************************
- * @author:Alex Wang
- * @Date:2016/11/13 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class CompletableFutureInAction3 {
 
     public static void main(String[] args) {

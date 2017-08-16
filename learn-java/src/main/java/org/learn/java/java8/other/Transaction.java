@@ -1,8 +1,5 @@
 package org.learn.java.java8.other;
 
-/**
- * Created by wangwenjun on 2016/10/22.
- */
 public class Transaction {
     private final Trader trader;
     private final int year;
@@ -26,7 +23,8 @@ public class Transaction {
         return this.value;
     }
 
-    public String toString() {
+    @Override
+	public String toString() {
         return "{" + this.trader + ", " +
                 "year: " + this.year + ", " +
                 "value:" + this.value + "}";

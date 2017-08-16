@@ -1,18 +1,14 @@
 package org.learn.java.java8.other;
 
+import static java.util.Comparator.comparing;
+import static java.util.stream.Collectors.toList;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static java.util.Comparator.comparing;
-import static java.util.stream.Collectors.toCollection;
-import static java.util.stream.Collectors.toList;
-
-/**
- * Created by wangwenjun on 2016/10/18.
- */
 public class SimpleStream {
     public static void main(String[] args) {
         //have a dish list (menu)

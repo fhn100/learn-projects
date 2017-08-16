@@ -2,11 +2,6 @@ package org.learn.java.java8.other;
 
 import java.util.concurrent.CompletableFuture;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/11/13 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class CompletableFutureInAction4 {
 
     public static void main(String[] args) throws InterruptedException {

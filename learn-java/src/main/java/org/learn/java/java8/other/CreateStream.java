@@ -10,9 +10,6 @@ import java.util.Random;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-/**
- * Created by wangwenjun on 2016/10/19.
- */
 public class CreateStream {
 
     public static void main(String[] args) {

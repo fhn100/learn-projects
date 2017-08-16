@@ -2,11 +2,6 @@ package org.learn.java.java8.other;
 
 import java.util.Optional;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/10/25 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class OptionalInAction {
 
     public static void main(String[] args) {

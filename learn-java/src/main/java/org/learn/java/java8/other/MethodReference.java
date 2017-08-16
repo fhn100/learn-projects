@@ -8,9 +8,6 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-/**
- * Created by wangwenjun on 2016/10/16.
- */
 public class MethodReference {
 
     public static void main(String[] args) {

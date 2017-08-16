@@ -4,11 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.toList;
-
-/**
- * Created by wangwenjun on 2016/10/20.
- */
 public class StreamMap {
 
     public static void main(String[] args) {

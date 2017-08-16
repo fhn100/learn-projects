@@ -1,13 +1,13 @@
 package org.learn.java.java8.other;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.IntSummaryStatistics;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/10/27 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class CollectorsAction {
 
 

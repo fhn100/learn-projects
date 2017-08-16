@@ -1,12 +1,11 @@
 package org.learn.java.java8.other;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeoutException;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/11/7 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class FutureInAction2 {
 
     public static void main(String[] args)

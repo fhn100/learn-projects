@@ -2,9 +2,6 @@ package org.learn.java.java8.other;
 
 import java.util.stream.IntStream;
 
-/**
- * Created by wangwenjun on 2016/10/22.
- */
 public class NumericStream {
 
     public static void main(String[] args) {

@@ -1,15 +1,19 @@
 package org.learn.java.java8.other;
 
-import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.function.*;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
+import java.util.function.BiPredicate;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.IntFunction;
+import java.util.function.LongPredicate;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
-/**
- * Created by wangwenjun on 2016/10/15.
- */
 public class LambdaUsage {
 
 

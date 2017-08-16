@@ -1,17 +1,9 @@
 package org.learn.java.java8.other;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
-import java.util.concurrent.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
-import static java.util.stream.Collectors.toList;
-
-/***************************************
- * @author:Alex Wang
- * @Date:2016/11/8 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class CompletableFutureInAction {
 
     private static final Random random = new Random(System.currentTimeMillis());

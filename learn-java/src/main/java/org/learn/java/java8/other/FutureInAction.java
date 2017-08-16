@@ -3,11 +3,6 @@ package org.learn.java.java8.other;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/11/7 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class FutureInAction {
     public static void main(String[] args) throws InterruptedException {
 

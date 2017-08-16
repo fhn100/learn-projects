@@ -1,17 +1,16 @@
 package org.learn.java.java8.other;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.EnumSet;
+import java.util.List;
+import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/10/30 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class ToListCollector<T> implements Collector<T, List<T>, List<T>> {
 
     private void log(final String log) {

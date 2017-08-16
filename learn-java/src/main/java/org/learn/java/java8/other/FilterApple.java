@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by wangwenjun on 2016/10/12.
- */
 public class FilterApple {
 
 

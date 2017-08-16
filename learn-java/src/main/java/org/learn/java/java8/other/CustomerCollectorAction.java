@@ -4,11 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collector;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/10/30 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class CustomerCollectorAction {
 
     public static void main(String[] args) {

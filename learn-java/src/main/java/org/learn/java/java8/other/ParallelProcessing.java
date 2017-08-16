@@ -4,11 +4,6 @@ import java.util.function.Function;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-/***************************************
- * @author:Alex Wang
- * @Date:2016/10/30 QQ:532500648
- * QQ交流群:286081824
- ***************************************/
 public class ParallelProcessing {
 
     public static void main(String[] args) {

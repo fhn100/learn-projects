@@ -5,9 +5,6 @@ import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-/**
- * Created by wangwenjun on 2016/10/22.
- */
 public class StreamFind {
 
     public static void main(String[] args) {
