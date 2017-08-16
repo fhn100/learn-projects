@@ -21,7 +21,8 @@ public class Lambda3 {
         void foo();
     }
 
-    public static void main(String[] args) throws Exception {
+	@SuppressWarnings("unused")
+	public static void main(String[] args) throws Exception {
 
         // Predicates
 
@@ -35,7 +36,6 @@ public class Lambda3 {
 
         Predicate<String> isEmpty = String::isEmpty;
         Predicate<String> isNotEmpty = isEmpty.negate();
-
 
         // Functions
 

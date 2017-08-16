@@ -9,7 +9,8 @@ public class Lambda4 {
 
     int outerNum;
 
-    void testScopes() {
+	@SuppressWarnings("unused")
+	void testScopes() {
         int num = 1;
 
         Lambda2.Converter<Integer, String> stringConverter =
