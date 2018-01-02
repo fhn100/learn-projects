@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org</groupId>
-		<artifactId>learn</artifactId>
+		<artifactId>learn-projects</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>learn-storm</artifactId>
