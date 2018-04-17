@@ -237,8 +237,9 @@
 		<module>learn-zookeeper</module>
 		<module>learn-java</module>
 		<module>learn-spring</module>
-		<module>learn-activiti</module>
-	</modules>
+		<module>learn-hadoop</module>
+        <module>learn-design-pattern</module>
+    </modules>
 
 	<dependencies>
 		<dependency>
